@@ -1,6 +1,6 @@
-import img from '../assets/img1.png'
+import img from '../assets/img4.png'
+export default function SectionSecond() {
 
-export default function SectionFirst() {
     return <>
         <section className=" text-gray-700 mb-4 ">
             <div className="justify-center flex flex-col mx-auto lg:flex-row  gap-4">
@@ -9,7 +9,7 @@ export default function SectionFirst() {
                 </div>
                 <div className="flex flex-col p-6  lg:p-10 max-w-2xl ">
                     
-                    <h2 className="text-4xl font-semibold leading-none">The unseen of spending three years at Pixelgrade</h2>
+                    <h2 className="text-4xl font-semibold leading-none">How to design your site footer like we did</h2>
                     <p className="mt-4 mb-8  text-sm">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores inventore veniam aperiam pariatur non accusantium totam voluptatum assumenda, enim porro quas vitae at earum. Quos sunt repudiandae iusto animi necessitatibus?
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores inventore veniam aperiam pariatur non accusantium totam voluptatum assumenda, enim porro quas vitae at earum. Quos sunt repudiandae iusto animi necessitatibus?

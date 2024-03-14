@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="lg:w-1/3">
                     <div className=" flex flex-col justify-center gap-4">
 
-                        <div className=" text-sm text-gray-100">© 1968 Company Co. All rights reserved.</div>
+                        <div className=" text-sm text-gray-100">Copyright © 2020 Landify UI Kit. <br /> All rights reserved.</div>
                         <div className="flex justify-start space-x-3">
                             <a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-5 h-5 fill-current">
@@ -25,51 +25,51 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+                <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
                     <div className="space-y-3">
-                        <h3 className="tracking-wide uppercase text-gray-100">Product</h3>
+                        <h3 className="tracking-wide uppercase text-gray-100 font-bold">Company</h3>
                         <ul className="space-y-1">
                             <li>
-                                <a rel="noopener noreferrer" href="#">Features</a>
+                                <a rel="noopener noreferrer" href="#">About us</a>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Integrations</a>
+                                <a rel="noopener noreferrer" href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" href="#">Contact us</a>
                             </li>
                             <li>
                                 <a rel="noopener noreferrer" href="#">Pricing</a>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">FAQ</a>
+                                <a rel="noopener noreferrer" href="#">Testimonials</a>
                             </li>
                         </ul>
                     </div>
                     <div className="space-y-3">
-                        <h3 className="tracking-wide uppercase text-gray-100">Company</h3>
+                        <h3 className="tracking-wide uppercase text-gray-100 font-bold">Support</h3>
                         <ul className="space-y-1">
                             <li>
-                                <a rel="noopener noreferrer" href="#">Privacy</a>
+                                <a rel="noopener noreferrer" href="#">Help center</a>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Terms of Service</a>
+                                <a rel="noopener noreferrer" href="#">Terms of service</a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" href="#">Legal</a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" href="#">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a rel="noopener noreferrer" href="#">Status</a>
                             </li>
                         </ul>
                     </div>
+                 
                     <div className="space-y-3">
-                        <h3 className="uppercase text-gray-100">Developers</h3>
-                        <ul className="space-y-1">
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Public API</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Documentation</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Guides</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="space-y-3">
-                        <div className="uppercase text-gray-100">Social media</div>
+                        <div className="uppercase text-gray-100">Stay up to date</div>
+                        <input type="email" className="p-2  rounded-lg bg-gray-900 text-gray-200" placeholder="Your email address"/>
                        
                     </div>
                 </div>

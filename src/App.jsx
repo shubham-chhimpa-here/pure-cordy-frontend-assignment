@@ -9,22 +9,24 @@ import OurClients from './components/OurClients'
 import Reviews from './components/Reviews'
 import SectionFirst from './components/SectionFirst'
 import Stats from './components/Stats'
-
+import img2 from './assets/img2.png'
+import img5 from './assets/img5.png'
+import SectionSecond from './components/SectionSecond'
 function App() {
 
   return (
     <>
-   <Navbar />
-   <HeroComponent />
-   <OurClients />
-   <Features />
-   <SectionFirst />
-   <Stats />
-   <SectionFirst />
-   <Reviews />
-   <Articles />
-   <GetDemo />
-   <Footer />
+      <Navbar />
+      <HeroComponent data={{ imgSrc: img2 }} />
+      <OurClients />
+      <Features />
+      <SectionFirst/>
+      <Stats />
+      <SectionSecond  />
+      <Reviews data={{ imgSrc: img5 }} />
+      <Articles />
+      <GetDemo />
+      <Footer />
     </>
   )
 }

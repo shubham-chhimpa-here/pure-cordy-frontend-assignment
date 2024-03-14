@@ -1,7 +1,16 @@
 export default function Stats() {
     return <>
-        <section className="p-6 my-6 bg-gray-100 text-gray-800">
-            <div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
+        <section className=" p-6 my-6 bg-gray-100 text-gray-700  ">
+
+            <div className="container flex flex-col lg:flex-row mx-auto gap-4 p-6">
+
+            <div className="flex-1 flex
+            flex-col gap-4">
+                <h1 className="text-5xl font-bold">Helping a local</h1>
+                <h1 className="text-5xl text-green-600 font-bold">business reinvent itself</h1>
+                <p>We reached here with our hard work and dedication</p>
+            </div>
+            <div className=" flex-1 container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-2">
                 <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
                     <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="h-9 w-9 text-gray-100">
@@ -11,8 +20,8 @@ export default function Stats() {
                         </svg>
                     </div>
                     <div className="flex flex-col justify-center align-middle">
-                        <p className="text-3xl font-semibold leading-none">200</p>
-                        <p className="capitalize">Orders</p>
+                        <p className="text-3xl font-semibold leading-none">2,245,341</p>
+                        <p className="capitalize">Members</p>
                     </div>
                 </div>
                 <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
@@ -25,8 +34,8 @@ export default function Stats() {
                         </svg>
                     </div>
                     <div className="flex flex-col justify-center align-middle">
-                        <p className="text-3xl font-semibold leading-none">7500</p>
-                        <p className="capitalize">New customers</p>
+                        <p className="text-3xl font-semibold leading-none">46,328</p>
+                        <p className="capitalize">Clubs</p>
                     </div>
                 </div>
                 <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
@@ -41,8 +50,8 @@ export default function Stats() {
                         </svg>
                     </div>
                     <div className="flex flex-col justify-center align-middle">
-                        <p className="text-3xl font-semibold leading-none">172%</p>
-                        <p className="capitalize">Growth</p>
+                        <p className="text-3xl font-semibold leading-none">828,867</p>
+                        <p className="capitalize">Event Bookings</p>
                     </div>
                 </div>
                 <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-50 text-gray-800">
@@ -52,11 +61,13 @@ export default function Stats() {
                         </svg>
                     </div>
                     <div className="flex flex-col justify-center align-middle">
-                        <p className="text-3xl font-semibold leading-none">17%</p>
-                        <p className="capitalize">Bounce rate</p>
+                        <p className="text-3xl font-semibold leading-none">1,926,436</p>
+                        <p className="capitalize">Payments</p>
                     </div>
                 </div>
             </div>
+            </div>
+
         </section>
     </>
 }
