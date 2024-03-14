@@ -9,7 +9,7 @@ export default function HeroComponent({data}) {
         <section className="bg-gray-100 text-gray-800 relative">
             <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                 <div className="flex flex-col justify-center p-6 text-center rounded-sm  lg:text-left ">
-                    <h1 className="text-2xl font-bold leading-none sm:text-6xl">Lessons and insights
+                    <h1 className="text-3xl font-bold leadi sm:text-6xl">Lessons and insights
                     <br />
                         <span className="text-green-600">from 8 years</span>
                     </h1>

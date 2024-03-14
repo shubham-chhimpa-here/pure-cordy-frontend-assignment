@@ -3,11 +3,11 @@ export default function Reviews({ data }) {
     const { imgSrc } = data
     return <>
         <div className="bg-gray-100 text-gray-700">
-            <div className="flex gap-4 justify-center p-8 bg-gray-50">
+            <div className="flex gap-4 justify-center flex-col md:flex-row  p-8 bg-gray-50">
                 <div className="bg-no-repeat bg-cover border justify-center flex align-center ">
 
                     <img src={imgSrc} alt="" /></div>
-                <div className="flex flex-col gap-2 p-6  lg:p-10 max-w-4xl">
+                <div className="flex flex-col gap-2 p-6  lg:p-10 md:max-w-xl lg:max-w-3xl xl: max-w-5xl">
 
                     <p className="flex-1 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, reprehenderit adipisci tempore voluptas laborum quod.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit cum assumenda iure laudantium obcaecati animi sit ullam tempore dolores impedit ducimus architecto quae nam culpa, commodi saepe repudiandae nemo harum!
